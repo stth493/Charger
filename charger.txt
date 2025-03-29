@@ -1,0 +1,10 @@
+Charger_E_Bangkae	172.19.249.243
+Charger_E_Bangsue	172.19.248.195
+Charger_E_Ramkhamhaeng	172.19.249.99
+Charger_E_SathornCity2	172.19.250.195
+Charger_E_SCB Park	172.19.251.107
+Charger_E_ShinothiTower	172.19.234.115
+Charger_E_Udomsuk	172.19.249.51
+Charger_E_Vorawat	172.19.233.179
+Charger_E_IE GatewayCity	172.19.242.163
+Charger_EGW_Kabinburi	172.19.252.67

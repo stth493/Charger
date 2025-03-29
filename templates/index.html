@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Include Tailwind CSS from CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-6">
+  <h1 class="text-3xl font-bold text-center mb-8 text-gray-800">Charger Status Display</h1>
+  <div class="text-blue-500 text-center hidden mb-4" id="loading">Updating data...</div>
+  
+  <div class="text-center text-gray-600 text-sm mb-6" id="update-time">
+      {% if last_update %}
+          Last updated: {{ last_update }}
+      {% else %}
+          Initializing data...
+      {% endif %}
+  </div>
+  
+  <div id="box-container" class="flex flex-wrap gap-4">
+    {% for data in api_data %}
+      {% for Charger_name, Voltage in data.items() %}
+        <div class="bg-white rounded-lg shadow-md p-4 flex-grow transition-transform hover:shadow-lg hover:-translate-y-1 overflow-hidden w-1/6 min-w-[200px] mb-4" id="box-{{ Charger_name }}">
+            <div class="font-bold mb-2 pb-2 border-b border-gray-200 text-gray-700">
+              {{ Charger_name }}
+            </div>
+            <div class="text-sm overflow-auto max-h-36 break-words">
+              {{ Voltage }}
+            </div>
+        </div>
+      {% endfor %}
+    {% endfor %}
+  </div>       
+    </div>
+
+    <!-- Responsive Design -->
+    <script>
+        // Add responsive classes based on screen size
+        const container = document.querySelector('.grid');
+        const tiles = document.querySelectorAll('.grid > div');
+        
+        function updateResponsiveClasses() {
+            if (window.innerWidth <= 480) {
+                container.classList.remove('grid-cols-4', 'grid-rows-4');
+                container.classList.add('grid-cols-1', 'grid-rows-16');
+                tiles.forEach(tile => {
+                    tile.querySelector('.text-7xl').classList.replace('text-7xl', 'text-5xl');
+                    tile.querySelector('.text-xl').classList.replace('text-xl', 'text-lg');
+                });
+            } else if (window.innerWidth <= 768) {
+                container.classList.remove('grid-cols-4', 'grid-rows-4');
+                container.classList.add('grid-cols-2', 'grid-rows-8');
+                tiles.forEach(tile => {
+                    tile.querySelector('.text-7xl').classList.replace('text-7xl', 'text-6xl');
+                    tile.querySelector('.text-xl').classList.replace('text-xl', 'text-base');
+                });
+            } else if (window.innerWidth <= 1200) {
+                tiles.forEach(tile => {
+                    tile.querySelector('.text-7xl').classList.replace('text-7xl', 'text-6xl');
+                    tile.querySelector('.text-xl').classList.replace('text-xl', 'text-base');
+                });
+            }
+        }
+
+         function refreshData() {
+            // Show loading indicator
+            $('#loading').removeClass('hidden');
+            
+            $.ajax({
+                url: '/api/data',
+                type: 'GET',
+                dataType: 'json',
+                success: function(response) {
+                    updatePageContent(response);
+                    $('#loading').addClass('hidden');
+                },
+                error: function() {
+                    console.error('Failed to fetch updated data');
+                    $('#loading').addClass('hidden');
+                }
+            });
+        }
+
+        function updatePageContent(response) {
+            const apiData = response.api_data;
+            const lastUpdate = response.last_update;
+            
+            // Clear existing boxes
+            $('#box-container').empty();
+            
+            // Handle list of dictionaries
+            apiData.forEach((data, index) => {
+                if (typeof data === 'object' && data !== null) {
+                    // Handle each dictionary in the list
+                    for (const [Charger_name, Voltage] of Object.entries(data)) {
+                        createBox(`${Charger_name}`, Charger_name, Voltage);
+                    }
+                }
+            });
+
+            // Update the last update time
+            if (lastUpdate) {
+                $('#update-time').text(`Last updated: ${lastUpdate}`);
+            }
+        }
+
+        function createBox(id, title, content) {
+            const isError = content && content.error !== undefined;
+            const boxContent = typeof content === 'string' ? 
+                               content : 
+                               JSON.stringify(content, null, 2);
+            
+            const box = $(`
+                <div class="bg-white rounded-lg shadow-md p-4 flex-grow transition-transform hover:shadow-lg hover:-translate-y-1 overflow-hidden w-1/6 min-w-[200px] mb-4" id="box-${id}">
+                    <div class="font-bold mb-2 pb-2 border-b border-gray-200 text-gray-700">${title}</div>
+                    <div class="text-sm overflow-auto max-h-36 break-words ${isError ? 'text-red-500' : ''}">
+                  
+                      <pre>${boxContent}</pre>
+    
+                    </div>
+                </div>
+            `);
+            $('#box-container').append(box);
+        }
+
+        $(document).ready(function() {
+            // Only refresh if there's no initial data
+            if (!{{ api_data|tojson|safe }}) {
+                refreshData();
+            }
+            
+            // Set interval for refresh
+            setInterval(refreshData, 10000);
+        });
+
+        window.addEventListener('resize', updateResponsiveClasses);
+        updateResponsiveClasses();
+    </script>
+</body>
+</html>
