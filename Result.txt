@@ -1,0 +1,252 @@
+{'Yen Akat #1': 21.666666666666668}
+{'Yen Akat #2': 20.333333333333332}
+{'Yen Akat #3': 32.25}
+{'Yen Akat #4': 33.0}
+{'Yen Akat #5': 34.666666666666664}
+{'Yen Akat #6': 35.0}
+{'Phutthamonthon4 #1': 41.0}
+{'Phutthamonthon4 #2': 46.25}
+{'Phutthamonthon4 #3': 17.666666666666668}
+{'Phutthamonthon4 #4': 20.333333333333332}
+{'Phutthamonthon4 #5': 30.75}
+{'Phutthamonthon4 #6': 37.75}
+{'Rangsit #1': 33.333333333333336}
+{'Rangsit #2': 34.666666666666664}
+{'Rangsit #3': 48.333333333333336}
+{'Rangsit #4': 46.333333333333336}
+{'Rangsit #5': 20.0}
+{'Kingkeaw #1': 23.666666666666668}
+{'Kingkeaw #2': 23.25}
+{'Kingkeaw #3': 24.0}
+{'Kingkeaw #4': 43.0}
+{'Minburi #1': 23.0}
+{'Minburi #2': 39.5}
+{'Minburi #3': 36.5}
+{'Minburi #4': 2.0}
+{'Sukhumvit 48 #1': 21.0}
+{'Sukhumvit 48 #2': 19.333333333333332}
+{'Sukhumvit 48 #3': 36.75}
+{'Khaerai #1': 35.333333333333336}
+{'Khaerai #2': 32.0}
+{'Bangplee#1': 13.0}
+{'Bangplee#2': 21.0}
+{'Bangkae': 5.5}
+{'Bangkradee': 26.5}
+{'Bangna trad km.17': 34.0}
+{'Bangsue': 4.5}
+{'Bangyai': 'Failed to fetch data from API'}
+{'Banma': 39.5}
+{'Charoennakhon 14 #1': 19.5}
+{'Charoennakhon 14 #2': 23.0}
+{'Chokchai 4': 39.5}
+{'ChongNonsi ': 12.5}
+{'Donmueang': 28.333333333333332}
+{'Laksi': 22.0}
+{'Lamlukka': 30.0}
+{'Langsuan_BKK': 23.0}
+{'Latkrabang': 25.5}
+{'Navanakorn': 31.0}
+{'Nongchok': 41.333333333333336}
+{'Nonthaburi': 24.5}
+{'Onnut #1': 32.5}
+{'Onnut #2': 32.0}
+{'Pakkret': 33.5}
+{'Paradise #1': 18.0}
+{'Pathumthani': 20.5}
+{'Patumwan #1': 30.25}
+{'Patumwan #2': 30.25}
+{'Phahonyothin 23 #1': 16.5}
+{'Phahonyothin 23 #2': 'Failed to fetch data from API'}
+{'Phahonyothin 9 #1': 20.5}
+{'Phahonyothin 9 #2': 32.5}
+{'Phatunam': 32.5}
+{'Phetchaburi_BKK #1': 18.0}
+{'Phetchaburi_BKK #2': 33.0}
+{'Pinklao #1': 18.5}
+{'Pinklao #2': 17.5}
+{'Prawet': 30.0}
+{'Phraeksa': 29.0}
+{'Pridibanomyong 34': 17.0}
+{'Rajburana #2': 18.5}
+{'Rama 2': 18.5}
+{'Rama9 43': 20.0}
+{'Raminthra km.8 #1': 29.0}
+{'Raminthra km.8 #2': 17.5}
+{'Ramkhamhaeng': 17.5}
+{'Saladang': 27.0}
+{'Samrong': 30.5}
+{'Saphanmai': 21.0}
+{'Sathupradit #1': 18.0}
+{'Sathupradit #2': 'Failed to fetch data from API'}
+{'Shinaket': 26.5}
+{'Sinothai': 19.0}
+{'Suanphlu': 22.0}
+{'Sukhumvit 11': 17.5}
+{'Sukhumvit 22 #1': 20.0}
+{'Sukhumvit 22 #2': 20.0}
+{'Surawong': 43.0}
+{'Tapra': 20.5}
+{'Teparak': 22.5}
+{'Tevate': 19.5}
+{'Thanontok': 29.5}
+{'Thodsaphol Land 3': 20.5}
+{'Thunyaburi 2': 21.5}
+{'TOT_Krungkaseam': 17.0}
+{'Udomsuk': 28.5}
+{'Victory Monument': 29.5}
+{'Viphavadee 3': 18.5}
+{'Vorawat #1': 31.0}
+{'Vorawat #2': 22.0}
+{'Worachak #1': 17.5}
+{'Worachak #2': 17.5}
+{'Jasmin': 20.0}
+{'Cyber World Tower ': 18.5}
+{'ALL SEASON PLACE': 20.0}
+{'Park Venture': 23.0}
+{'Samyan Mitrtown': 18.5}
+{'CSLOX_Nuanchan': 16.5}
+{'Charger_D_Telehouse#1': 'Failed to fetch data from API'}
+{'Charger_D_Telehouse#2': 19.0}
+{'Charger3_Telehouse_TPP': 24.333333333333332}
+{'Charger4_Telehouse_TPP': 20.0}
+{'Charger_D_Bangrak14FL': 20.5}
+{'SCB Park': 17.0}
+{'Central World': 20.5}
+{'Phatra Tower': 32.0}
+{'Sathorncity': 17.5}
+{'Sintdhorn Tower': 23.5}
+{'Abdulrahim': 19.0}
+{'Sathornthani': 21.0}
+{'Siam Tower': 18.0}
+{'GPF Witthayu Tower': 18.0}
+{'Lakeratchada': 21.0}
+{'Plaza Athenee': 17.0}
+{'Sorachai': 16.5}
+{'Ocean Tower 1': 15.0}
+{'Ocean Tower 2': 33.0}
+{'UBC 2 Tower': 17.5}
+{'Exchange Tower': 22.0}
+{'Asia Centre': 36.0}
+{'253 Asoke': 16.5}
+{'ThaiCC Tower': 17.5}
+{'Pacific Tower': 20.5}
+{'Sirinrut Tower': 29.0}
+{'Shinnawat 3': 20.0}
+{'U-Chuliang': 17.5}
+{'Wave Place': 18.0}
+{'Manorom': 22.0}
+{'Wall Street Tower': 16.5}
+{'Alma Link Tower': 30.0}
+{'Gems Tower': 16.0}
+{'Ocean Insurance': 19.0}
+{'Sun Tower': 20.5}
+{'ITF Silom Place': 19.0}
+{'Charn Issara Tower': 29.0}
+{'ITF Tower': 20.0}
+{'Chamchuri Square': 18.0}
+{'Mahatun Plaza': 21.0}
+{'Wongwanich': 19.5}
+{'Amarin Plaza': 12.333333333333334}
+{'Panjathani': 21.5}
+{'Q House Lumpini': 31.0}
+{'Samaggi Insurance': 31.25}
+{'Q House Asoke': 14.5}
+{'Liberty Square': 8.0}
+{'Thaniya': 29.0}
+{'Buphajit': 20.0}
+{'Worasombat Building': 32.5}
+{'CTI Tower': 44.75}
+{'Time Square': 28.25}
+{'Orakarn': 14.5}
+{'Rajanakarn': 8.5}
+{'42 Tower': 20.5}
+{'EmporiumTower': 40.333333333333336}
+{'Bangkok Thai Tower': 30.666666666666668}
+{'Bangkok Insurance': 65.66666666666667}
+{'Chartered Square': 5.0}
+{'Ploenchit Center': 7.0}
+{'Lertpanya': 14.5}
+{'Glas Haus': 9.5}
+{'Chamnanpenchart': 'Failed to fetch data from API'}
+{'Regent House': 8.0}
+{'Tipco Tower': 7.0}
+{'Q House Sathorn': 23.5}
+{'Bangna Tower': 10.0}
+{'KPN Tower': 14.0}
+{'Gypsum Metropolitan': 17.0}
+{'GMM Grammy': 52.666666666666664}
+{'Pipattanasin Tower': 31.25}
+{'Column Tower': 14.0}
+{'Setthiwan Tower': 15.0}
+{'Sathorn Square': 'Failed to fetch data from API'}
+{'Smooth life Tower': 8.5}
+{'Zuellig House': 39.666666666666664}
+{'Maneeya': 17.75}
+{'BB-Building': 13.5}
+{'PhayaThaiPlaza': 8.0}
+{'Pakin Tower': 16.5}
+{'Central Bangna': 24.5}
+{'Bangna Thani': 9.0}
+{'Tisco Tower': 49.333333333333336}
+{'TPI Tower': 52.333333333333336}
+{'IBM Tower (S.P.Building)': 55.75}
+{'BBC Tower': 52.5}
+{'Phaholyothin Place': 14.5}
+{'Italthai Tower': 32.5}
+{'Tonson Tower': 29.5}
+{'Sermmit Tower': 34.75}
+{'The Nine Tower': 6.5}
+{'AIA Capital Center': 'Failed to fetch data from API'}
+{'UBC III Tower': 23.333333333333332}
+{'RS Tower': 21.0}
+{'Thanapoom Tower': 9.5}
+{'AIA Sathorn Tower': 8.0}
+{'TrenDy Tower': 28.666666666666668}
+{'Singha Complax': 29.25}
+{'Sathorn Prime': 40.5}
+{'S-OASIS': 13.666666666666666}
+{"I'm Park 4 Flr.": 'Failed to fetch data from API'}
+{'Chiangmai': 15.0}
+{'Chiangrai': 13.5}
+{'Kamphaengphet': 7.333333333333333}
+{'Lampang': 'Failed to fetch data from API'}
+{'Lamphun': 6.0}
+{'Lomsak': 'Failed to fetch data from API'}
+{'Maesai': 30.5}
+{'Maesod #1': 10.5}
+{'Maesod #2': 10.0}
+{'Myawaddy': 'Failed to fetch data from API'}
+{'Nongpakrang': 9.0}
+{'Phetchabun': 12.0}
+{'Phitsanulok#1': 33.75}
+{'Phitsanulok#2': 34.25}
+{'Tak#1': 36.75}
+{'Tak#2': 43.75}
+{'Uttaradit': 12.0}
+{'Banyaeng': 13.0}
+{'Noensawang': 13.5}
+{'Nongphai': 43.5}
+{'Toen': 7.333333333333333}
+{'Long_Phare': 38.666666666666664}
+{'Muangklom': 9.0}
+{'Takfa': 20.666666666666668}
+{'Pak Nam pao': 23.0}
+{'Ayutthaya': 26.666666666666668}
+{'BangPra-In': 17.333333333333332}
+{'IE Hitech': 9.0}
+{'IE Rojana': 10.5}
+{'Lopburi': 25.666666666666668}
+{'Nakornsawan': 23.666666666666668}
+{'Saraburi': 8.5}
+{'Singburi': 9.0}
+{'Wangnoi': 10.0}
+{'Khaosuankwang': 5.5}
+{'Khonkaen': 9.5}
+{'Mahasarakham': 7.0}
+{'Nakronratchasima': 5.5}
+{'Nongkhai': 8.5}
+{'Pakchong': 14.0}
+{'Roiet': 20.5}
+{'Ubonratchathani': 26.75}
+{'Udonthani': 52.0}
+{'Wangmon': 44.0}
